@@ -31,3 +31,10 @@ Lane detection is one of the most fundamental tasks for autonomous driving. It p
     # Install other dependencies
     pip install -r requirements.txt
     ```
+## Dataset
+Our method was tested using the 3D Lane Synthetic Dataset. For additional details about the database and required setups, please refer to the following link: [https://github.com/yuliangguo/3D_Lane_Synthetic_Dataset]
+## How to run 3DLaneNAS
+3DLaneNAS employs three distinct search methods to find the optimal architecture: Simulated Annealing, Random Search, and Local Search. To use the platform with each of these search methods, follow the commands provided below.
+```Shell
+    python <SimulatedAnnealing.py, Random_Search.py, or local_search.py>
+```
